@@ -1,0 +1,278 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Click Convert with out entering Amount",
+        "description": "",
+        "id": "as-a-product-owner-if-there-is-no-amount-entered-and-the-convert-button-is-clicked-then-i-want-to-see-an-error-message.;click-convert-with-out-entering-amount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on the home page on URL \"https://westpac.co.nz\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Navigate to FX, travel \u0026 migrant and Click Currency Converter Btn",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Click Convert Btn",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Display error message and Teardown",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a Product owner if there is no amount entered and the convert button is clicked then i want to see an error message.",
+    "description": "  It should display error message saying that Plese enter the amount you want to convert.",
+    "id": "as-a-product-owner-if-there-is-no-amount-entered-and-the-convert-button-is-clicked-then-i-want-to-see-an-error-message.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/UserStory_1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Click Convert with out entering Amount",
+        "description": "",
+        "id": "as-a-product-owner-i-want-the-feature-to-convert-currancy-a-to-b-and-versa-with-the-currancy-converter;click-convert-with-out-entering-amount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on the home page on URL \"https://westpac.co.nz\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Navigate to FX, travel \u0026 migrant and Click Currency Converter Btn",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Select \"New Zealand Dollar\" from Convert from drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Enter 1 in Amount field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Select \"United States Dollar\" from Convert to drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Click Convert Btn",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Check success message \"User is able convert 1 USD to NZD successfully\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Select \"United States Dollar\" from Convert from drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Enter 1 in Amount field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Select \"New Zealand Dollar\" from Convert to drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Click Convert Btn",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Check success message \"User is able convert 1 NZD to USD successfully\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Select \"Pound Sterling\" from Convert from drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Enter 1 in Amount field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Select \"New Zealand Dollar\" from Convert to drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Click Convert Btn",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "Check success message \"User is able convert 1 Pound Sterling to NZD successfully\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Select \"Swiss Franc\" from Convert from drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "Enter 1 in Amount field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "Select \"Euro\" from Convert to drop down",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Click Convert Btn",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "Check success message \"User is able convert 1 Swiss Franc to Euro successfully\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a Product owner i want the feature to Convert Currancy A to B and versa with the currancy converter",
+    "description": "  So that the user gets an indiction of the exchange rates and makes an informed decision on thier foriegn transaction.",
+    "id": "as-a-product-owner-i-want-the-feature-to-convert-currancy-a-to-b-and-versa-with-the-currancy-converter",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/UserStory_2.feature",
+    "tags": []
+  }
+]

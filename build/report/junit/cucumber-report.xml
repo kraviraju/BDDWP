@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.208166">
+<testcase classname="As a Product owner if there is no amount entered and the convert button is clicked then i want to see an error message." name="Click Convert with out entering Amount" time="0.102638">
+<skipped><![CDATA[Given I am on the home page on URL "https://westpac.co.nz"..................undefined
+And Navigate to FX, travel & migrant and Click Currency Converter Btn.......undefined
+When Click Convert Btn......................................................undefined
+Then Display error message and Teardown.....................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="As a Product owner i want the feature to Convert Currancy A to B and versa with the currancy converter" name="Click Convert with out entering Amount" time="0.105528">
+<skipped><![CDATA[Given I am on the home page on URL "https://westpac.co.nz"..................undefined
+And Navigate to FX, travel & migrant and Click Currency Converter Btn.......undefined
+And Select "New Zealand Dollar" from Convert from drop down.................undefined
+And Enter 1 in Amount field.................................................undefined
+And Select "United States Dollar" from Convert to drop down.................undefined
+When Click Convert Btn......................................................undefined
+And Check success message "User is able convert 1 USD to NZD successfully"..undefined
+And Select "United States Dollar" from Convert from drop down...............undefined
+And Enter 1 in Amount field.................................................undefined
+And Select "New Zealand Dollar" from Convert to drop down...................undefined
+When Click Convert Btn......................................................undefined
+And Check success message "User is able convert 1 NZD to USD successfully"..undefined
+And Select "Pound Sterling" from Convert from drop down.....................undefined
+And Enter 1 in Amount field.................................................undefined
+And Select "New Zealand Dollar" from Convert to drop down...................undefined
+When Click Convert Btn......................................................undefined
+And Check success message "User is able convert 1 Pound Sterling to NZD successfully".undefined
+And Select "Swiss Franc" from Convert from drop down........................undefined
+And Enter 1 in Amount field.................................................undefined
+And Select "Euro" from Convert to drop down.................................undefined
+When Click Convert Btn......................................................undefined
+And Check success message "User is able convert 1 Swiss Franc to Euro successfully".undefined
+]]></skipped>
+</testcase>
+</testsuite>
