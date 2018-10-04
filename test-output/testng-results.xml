@@ -2,15 +2,15 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="BDD" duration-ms="267" started-at="2018-10-04T13:23:46Z" finished-at="2018-10-04T13:23:46Z">
+  <suite name="BDD" duration-ms="234" started-at="2018-10-04T13:39:45Z" finished-at="2018-10-04T13:39:45Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCucumberTest@6e1567f1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Ravi BDD Project" duration-ms="267" started-at="2018-10-04T13:23:46Z" finished-at="2018-10-04T13:23:46Z">
+    <test name="Ravi BDD Project" duration-ms="234" started-at="2018-10-04T13:39:45Z" finished-at="2018-10-04T13:39:45Z">
       <class name="runners.RunCucumberTest">
-        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:runners.RunCucumberTest@6e1567f1]" name="setUpClass" is-config="true" duration-ms="0" started-at="2018-10-04T18:53:46Z" finished-at="2018-10-04T18:53:46Z">
+        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:runners.RunCucumberTest@6e1567f1]" name="setUpClass" is-config="true" duration-ms="0" started-at="2018-10-04T19:09:45Z" finished-at="2018-10-04T19:09:45Z">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA[cucumber.runtime.RuntimeOptions.reporter(Ljava/lang/ClassLoader;)Lgherkin/formatter/Reporter;]]>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCucumberTest@6e1567f1]" name="feature" duration-ms="0" started-at="2018-10-04T18:53:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-04T18:53:46Z">
+        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCucumberTest@6e1567f1]" name="feature" duration-ms="0" started-at="2018-10-04T19:09:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-04T19:09:45Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -92,7 +92,7 @@ Caused by: java.lang.NullPointerException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:runners.RunCucumberTest@6e1567f1]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2018-10-04T18:53:46Z" finished-at="2018-10-04T18:53:46Z">
+        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:runners.RunCucumberTest@6e1567f1]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2018-10-04T19:09:45Z" finished-at="2018-10-04T19:09:45Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
