@@ -1,4 +1,4 @@
-Feature: As a Product owner i want the feature to Convert Currancy A to B and versa with the currancy converter
+Feature: As a Product owner i want the feature to Convert Currancy A to B and vice versa with the currancy converter
   So that the user gets an indiction of the exchange rates and makes an informed decision on thier foriegn transaction.
 
   Scenario Outline: Click Convert with out entering Amount
