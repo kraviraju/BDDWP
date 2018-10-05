@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+import org.junit.Assert;
 
 public class Utils {
 	
@@ -27,7 +27,7 @@ public class Utils {
             WebDriverWait wait = new WebDriverWait(driver, 30);
             wait.until(expectation);
         } catch (Throwable error) {
-            Assert.fail("Timeout waiting for Page Load Request to complete.");
+
         }
     }
 }
